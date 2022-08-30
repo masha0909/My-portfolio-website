@@ -1,0 +1,153 @@
+/************ Skills Css ************/
+.skill {
+    padding: 100px 0 100px 0;
+    position: relative;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+
+.skill-bx {
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -160px;
+}
+
+.skill h2 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.skill h5 {
+    margin: 30px -5%;
+    text-align: start;
+    font-size: 24px;
+}
+
+.skill p {
+    color: #B8B8B8;
+    font-size: 24px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+
+.skill-slider {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+}
+
+.skill-slider .circle {
+    width: auto;
+}
+
+.item {
+    margin-left: 30%;
+
+}
+
+/**********Circular Progress Bar************/
+.circle-wrap {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(90.21deg, #ffd013 -5.91%, #ff2b24 111.58%);
+    border-radius: 50%;
+    justify-content: space-between;
+
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #151515;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #ffffff;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* color animation */
+
+/* 3rd progress bar */
+
+.mask.full,
+.circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(120deg);
+}
+
+.mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(120deg);
+    }
+}
+
+
+@media screen and (max-width:2048px) {
+    .item {
+        margin-left: 29%;
+
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .item {
+        margin-left: 25%;
+    }
+
+    .skill h5 {
+        margin: 20px 5x;
+        text-align: start;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .item {
+        margin-left: 22%;
+    }
+
+    .skill h5 {
+        margin: 20px 5px;
+        text-align: start;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .item {
+        margin-left: 19%;
+    }
+
+    .skill h5 {
+        margin: 20px 5px;
+        text-align: start;
+    }
+}

@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+npm i react-bootstrap 
+bootstrap  
+react-bootstrap-icons  
+react-on-screen  
+animate.css  
+react-multi-carousel
+@splinetool/runtime
+express 
+cors 
+nodemailer 
+react-mailchimp-subscribe
+react-router-dom
+
+nodemon server.js  !!!
+
+code help at:
+https://github.com/judygab/web-dev-projects/blob/main/personal-portfolio/src/components/NavBar.js
