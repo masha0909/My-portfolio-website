@@ -89,3 +89,21 @@ nodemon server.js  !!!
 
 code help at:
 https://github.com/judygab/web-dev-projects/blob/main/personal-portfolio/src/components/NavBar.js
+
+
+
+npm run build
+
+
+npm install -g serve
+  serve -s build
+
+
+    Serving!                                    │
+   │                                               │
+   │   - Local:            http://localhost:3000   │
+   │   - On Your Network:  http://10.0.0.82:3000 
+
+
+Site is deployed at netlify in url:
+https://stalwart-syrniki-7bc38c.netlify.app/

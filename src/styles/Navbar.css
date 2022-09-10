@@ -192,6 +192,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media screen and (max-width:834px) {
     .nav__img {
         width: 250%;
-        margin-left: -40px
     }
 }

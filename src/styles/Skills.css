@@ -115,7 +115,12 @@
 @media screen and (max-width:2048px) {
     .item {
         margin-left: 29%;
+    }
 
+    .skill h5 {
+        margin-top: 20px;
+        margin-left: -120px;
+        text-align: center;
     }
 }
 
@@ -125,8 +130,9 @@
     }
 
     .skill h5 {
-        margin: 20px 5x;
-        text-align: start;
+        margin-top: 20px;
+        margin-left: -90px;
+        text-align: center;
     }
 }
 
@@ -136,8 +142,21 @@
     }
 
     .skill h5 {
-        margin: 20px 5px;
-        text-align: start;
+        margin-top: 20px;
+        margin-left: -65px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:428px) {
+    .item {
+        margin-left: 22%;
+    }
+
+    .skill h5 {
+        margin-top: 20px;
+        margin-left: -70px;
+        text-align: center;
     }
 }
 
@@ -147,7 +166,8 @@
     }
 
     .skill h5 {
-        margin: 20px 5px;
-        text-align: start;
+        margin-top: 20px;
+        margin-left: -50px;
+        text-align: center;
     }
 }
